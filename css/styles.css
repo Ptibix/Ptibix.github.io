@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Luci";
+    src: url("fonts/LCALLIG.TTF");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Allu";
+    src: url("fonts/Allura-Regular.ttf");
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script&display=swap');
+
+h1{ 
+    color:red;
+    font-family: "Luci";
+}
+h2{
+    font-family: "Allu";
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: normal;
+    font-size: 30px;
+    max-width: 80%;
+}
+
+h3{
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#bio {
+    color: yellow;
+}
+
+p{
+     color: green;
+    font-size: 24px;
+    font-family: "Luci";
+   /* margin: 0px 1400px 0px 100px;  */
+   border: dashed 5px red;
+    padding: 5px;
+   /* display: inline; */ 
+   display: inline;
+  
+}
+
+.be1{
+    color: darkmagenta;
+}
+
+.bold
+{
+    font-weight: bold;
+    color: darkorange;
+}
+
+.ezaz
+{
+    background-color: darkviolet;
+}
+
+.kepdiv
+{
+    background-color: white;
+}
+
+
+img{
+    width: 20%;
+    box-shadow: 10px 10px 10px red;
+   margin: 1px;
+}
+#i1
+{
+    display: inline;
+    position: relative;
+    left: 5px;
+    visibility: initial;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/szorzas.css">
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <div class="container">
+
+        
+        <div class="row">
+       
+            <div class="col-2 col-md-2 offset-1 offset-md-4">
+             
+          
+            <form action="">
+                <h3>Szorzás</h3>
+
+                <div class="form-group">
+                    <label for="">Első szám</label>
+                    <input type="text" name="elso-input" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Második szám</label>
+                    <input type="number" name="masodik-input" class="form-control">
+                </div>
+
+                <button onclick="esemeny()" type="button" class="btn btn-primary" > Számol</button>  <!-- oneclick parancs a lényeg-->
+                
+                <br>
+                <br>
+                <div class="form-group">
+                    <h2>Szorzat: <span class="kiir"> 0 </span></h2>
+                    
+                
+                </div>
+
+            </div>
+
+            </form>
+
+            
+
+        </div>
+    </div>
+        <script src="/js/szorzas.js"></script>
+
+</body>
+
+</html>

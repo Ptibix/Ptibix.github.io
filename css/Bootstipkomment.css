@@ -1,0 +1,41 @@
+/* Linkes megadása a bootsripnek, hogy honnan vegye a dolgokat 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    */
+
+  /*
+   <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+            <div class="col-lg">
+                One of three columns
+            </div>
+        </div>
+    </div>
+
+    mivel lg ezért 960 pixel a conténer amibe létrehozza az oszlopokat ezért lesz középen és nem a szélétől csinálja. A közepén lesz az 1980pixelből
+    960 "kiválasztva" amibe a oszlopokat létrehozza ugye max 12-őt.
+
+    */

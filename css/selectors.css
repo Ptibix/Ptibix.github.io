@@ -1,0 +1,59 @@
+
+body{
+    background-color:#f0f0f0;
+}
+
+.login-div
+{
+    padding: 15px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px;
+    display:inline-block; 
+} 
+
+.login-div input[type="email"]   /* ez ugyan úgy a login-div input mezőket nézi, de csak azzal dolgozik amibe talál type=email beírást */
+{
+    border: solid 1px blue;
+}
+
+.login-div input[type="passw"]   /*a type=passw  attributomot keresi...bármi attributum lehetne itt. */
+{
+    border: solid 1px darkgreen;    
+
+} 
+
+.login-div input                /* ez így már csak a login-div-en belüli input mezőkre vonatkozik, azokat formázza */
+{
+   
+    margin-bottom: 7px;
+    
+}
+
+/* Beírható lenne, hogy -- .login-div input[class="form-control"] border: solid 1px red; -- ekkor 
+a két beíró rész vörös lesz, mert sorrendileg megy végig és ez felülírja a kék színezést. */
+
+ input[class*="control"]  /* olyan class-t keres ami bárhol tartalmazza a control szót és ezt érvényesíti rá. */
+{
+    display:block;
+} 
+
+.login-div button:hover {  /* A :hover adja azt, hogy amikor feléviszik az egeret akkor amit definiáltunk megtörténik */
+    box-shadow: 0 0 3px;
+}
+
+  .login-div input:focus {
+    box-shadow: 2px 2px 10px yellowgreen;
+    border: none;
+} 
+
+ul li:last-child {              /* az UL LI-jének az utolsó gyerekére érvémyesül (öröklése) A felsorolás utolsó elemére. */
+    text-decoration: underline;
+}
+
+ul li:first-child {             /* A felsorolás első elemére érvényesül */
+    font-size: 24px;
+}
+
+ul li:nth-child(2) {        /* A 2. gyerekre (itt a középső) fog érvényesülni */
+    color:teal;
+}
